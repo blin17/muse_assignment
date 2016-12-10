@@ -7,8 +7,8 @@ Scrapes Muse API's jobs endpoint and answers 'How many jobs with the location "N
 - MYSQL 5.7.11
 
 **Usage** 
-1. Edit script to include paramters for your own db connection
-	```python
+1. Edit script to include paramters for your own db connection: 
+	```
 	db = mysql.connector.connect(host='localhost',user='root',password='082092', db='the_muse')
 	```
 
