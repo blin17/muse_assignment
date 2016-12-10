@@ -39,7 +39,7 @@ def get_api_content(page):
 
 
 # main
-db = mysql.connector.connect(host='localhost',user='root',password='082092', db='the_muse')
+db = mysql.connector.connect(host='localhost',user='root',password='******', db='the_muse')
 cursor = db.cursor(buffered=True)
 parser = argparse.ArgumentParser(description='Process args for daily muse coding challenge')
 parser.add_argument('--pages', type=int, 
