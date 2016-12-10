@@ -1,7 +1,6 @@
 import requests
 import json
 import argparse
-import pprint 
 import mysql.connector
 from dateutil.parser import parse
 
@@ -183,6 +182,6 @@ query = ('SELECT COUNT(*) FROM jobs j JOIN job_locations l ON j.id = l.job_id '
 
 cursor.execute(query, ('New York City Metro Area','2016-9-1','2016-9-30'))
 print(cursor.fetchone())
-
 db.commit()
+cursor.close()
 db.close()

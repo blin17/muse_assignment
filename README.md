@@ -1,8 +1,15 @@
 # Daily Muse Coding Assignment
 Scrapes Muse API's jobs endpoint and answers 'How many jobs with the location "New York City Metro Area" were published from September 1st to 30th 2016?'
 
+
+**Requirements**
+- Python 2.7
+- MYSQL 5.7.11
+
 **Usage**
-Run script with following args: 
+1. Edit script to include paramters for your own db connection
+
+2. Run script with following args: 
 
   ```bash
   $ python main.py --pages=99
