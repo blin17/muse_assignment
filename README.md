@@ -1,7 +1,7 @@
 # Daily Muse Coding Assignment
+Scrapes Muse API's jobs endpoint and answers 'How many jobs with the location "New York City Metro Area" were published from September 1st to 30th 2016?'
 
-## Usage
-
+**Usage**
 Run script with following args: 
 
   ```bash
@@ -13,8 +13,8 @@ Run script with following args:
     --pages   Enter # pages to scrape Daily Muse Jobs endpoint
   ```
 
-**Would Add**
-- [ ] Instead of checking duplicates on job id, check against DB to see if there are any changes
-- [ ] Build checker to see if API schema has changed
+**Production Ready Changes**
 - [ ] Build separate classes for each table using Python ORM
+- [ ] Build checker to see if API schema has changed
+- [ ] Check for updates in result in addition to duplicates
 - [ ] Handle DB exceptions without client seeing them
